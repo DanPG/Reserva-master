@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/muestraDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/hacerOtraReservacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:onClick="hacerOtraReserva"
+        android:text="Hacer Otra Reservacion" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_below="@+id/muestraDatos"
+        android:layout_toRightOf="@+id/muestraDatos"
+        android:layout_marginLeft="69dp"
+        android:id="@+id/numero1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_below="@+id/numero1"
+        android:layout_alignRight="@+id/numero1"
+        android:layout_marginTop="40dp"
+        android:id="@+id/numero2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_marginTop="26dp"
+        android:id="@+id/numero3"
+        android:layout_below="@+id/numero2"
+        android:layout_alignLeft="@+id/numero2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_below="@+id/numero3"
+        android:layout_alignRight="@+id/numero3"
+        android:layout_marginTop="26dp"
+        android:id="@+id/numero4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_below="@+id/numero4"
+        android:layout_alignRight="@+id/numero4"
+        android:layout_marginTop="36dp"
+        android:id="@+id/numero5" />
+
+</RelativeLayout>
